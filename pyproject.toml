@@ -1,0 +1,15 @@
+[project]
+name = "universal-adk-system-design-v3"
+version = "3.0.0"
+description = "17-Layer Production Google ADK System Design Framework with 1-File Type-C Cartridge Architecture"
+readme = "SYSTEM_DESIGN_ARCHITECTURE.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-adk>=0.5.0",
+    "google-genai>=1.0.0",
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "pydantic>=2.8.0",
+    "python-dotenv>=1.0.0",
+    "pytest>=8.0.0",
+]
